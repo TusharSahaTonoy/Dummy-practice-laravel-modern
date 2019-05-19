@@ -5,7 +5,9 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 
-Vue.component('message', require('./components/message.vue').default);
+// Vue.component('Bodyvue', require('./components/Body.vue'));
+// Vue.component('navbarvue', require('./components/navbar.vue'));
+Vue.component('testcom',require('./components/test-com.vue'));
 
 const app = new Vue({
     el: '#app',
